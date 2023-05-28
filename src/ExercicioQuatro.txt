@@ -1,11 +1,14 @@
 1) Neste comando, está sendo declarada e inicializada uma variável chamada abas como um array de inteiros. O array contém três elementos: 0, 1 e 2.
 
-2) Neste trecho de código, há uma estrutura condicional (if) e um loop for. O objetivo é verificar se a string documento começa com o caractere "0" e, em seguida, remover esse "0" do início da string. O loop for itera 10 vezes para garantir que todos os "0"s consecutivos sejam removidos.
+2) Neste trecho de código, há uma estrutura condicional (if) e um loop for.
+O objetivo é verificar se a string documento começa com o caractere "0" e, em seguida, remover esse "0" do início da string.
+O loop for itera 10 vezes para garantir que todos os "0"s consecutivos sejam removidos.
 
-3) Nesse código, é criado um objeto StringBuilder chamado txtDados, que é usado para construir uma string. Em seguida, um nome de arquivo é definido na variável filename. Depois, é criado um objeto FileWriter com o nome do arquivo e, em seguida, o método writeNewFile é chamado no objeto writer, passando a string construída (txtDados.toString()) para escrevê-la em um arquivo.
+3) Nesse código, é criado um objeto StringBuilder chamado txtDados, que é usado para construir uma string.
+Em seguida, um nome de arquivo é definido na variável filename. Depois, é criado um objeto FileWriter com o nome do arquivo e,
+em seguida, o método writeNewFile é chamado no objeto writer, passando a string construída (txtDados.toString()) para escrevê-la em um arquivo.
 
-4) Nesse bloco de código, uma string dataMovimento é declarada e inicializada com o valor "07/05/2018". Em seguida, é feita uma verificação para garantir que a string possua pelo menos 10 caracteres. Se for o caso, são extraídos substrings para obter o mês e o ano da data. Em seguida, há uma verificação adicional para verificar se o mês de referência é igual a 0 (janeiro). Se for, o mês de referência é atualizado para 12 (dezembro) e o ano é decrementado em 1. O resultado final é uma concatenação do mês e do ano no formato "MM/yyyy", usando StringUtil.leftPad para adicionar um zero à esquerda no mês, se necessário.
-
-
-
-
+4) Nesse bloco de código, uma string dataMovimento é declarada e inicializada com o valor "07/05/2018".
+Em seguida, é feita uma verificação para garantir que a string possua pelo menos 10 caracteres. Se for o caso, são extraídos substrings para obter o mês e o ano da data.
+Em seguida, há uma verificação adicional para verificar se o mês de referência é igual a 0 (janeiro). Se for, o mês de referência é atualizado para 12 (dezembro) e o ano é decrementado em 1.
+O resultado final é uma concatenação do mês e do ano no formato "MM/yyyy", usando StringUtil.leftPad para adicionar um zero à esquerda no mês, se necessário.
